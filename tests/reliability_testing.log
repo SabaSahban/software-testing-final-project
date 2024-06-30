@@ -1,0 +1,16 @@
+2024-06-30 20:11:41,884 - Starting reliability testing for 8 hours.
+2024-06-30 20:11:52,159 - Request to https://portal.aut.ac.ir/aportal/ successful. Response time: 10.28 seconds
+2024-06-30 20:12:05,953 - Request to https://portal.aut.ac.ir/aportal/ successful. Response time: 12.79 seconds
+2024-06-30 20:12:19,214 - Starting reliability testing for 0.0016666666666666668 hours.
+2024-06-30 20:12:29,876 - Request to https://portal.aut.ac.ir/aportal/ successful. Response time: 10.66 seconds
+2024-06-30 20:12:30,882 - Reliability testing completed.
+2024-06-30 20:12:44,388 - Starting reliability testing for 0.08333333333333333 hours.
+2024-06-30 20:12:53,507 - Request to https://portal.aut.ac.ir/aportal/ successful. Response time: 9.12 seconds
+2024-06-30 20:13:12,187 - Request to https://portal.aut.ac.ir/aportal/ successful. Response time: 17.67 seconds
+2024-06-30 20:13:23,982 - Request to https://portal.aut.ac.ir/aportal/ successful. Response time: 10.79 seconds
+2024-06-30 20:13:30,430 - Request to https://portal.aut.ac.ir/aportal/ successful. Response time: 5.44 seconds
+2024-06-30 20:13:39,887 - Request to https://portal.aut.ac.ir/aportal/ successful. Response time: 8.45 seconds
+2024-06-30 20:13:50,068 - Request to https://portal.aut.ac.ir/aportal/ successful. Response time: 9.18 seconds
+2024-06-30 20:14:02,932 - Request to https://portal.aut.ac.ir/aportal/ successful. Response time: 11.86 seconds
+2024-06-30 20:14:15,394 - Request to https://portal.aut.ac.ir/aportal/ successful. Response time: 11.46 seconds
+2024-06-30 20:14:21,464 - Request to https://portal.aut.ac.ir/aportal/ failed: HTTPSConnectionPool(host='portal.aut.ac.ir', port=443): Max retries exceeded with url: /aportal/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
