@@ -24,15 +24,11 @@ class TestLoginBrowsers():
     def test_login_browsers(self, driver):
         username = os.getenv("PORTAL_USERNAME", "")
         password = os.getenv("PORTAL_PASSWORD", "")
-        print("hi")
         driver.get("https://portal.aut.ac.ir/")
-        print("hi 1")
+        time.sleep(3)
+
         driver.find_element(By.NAME, "sso").click()
-        print("hi 2")
         driver.find_element(By.ID, "username").send_keys(username)
-        print("hi 3")
         driver.find_element(By.ID, "password").send_keys(password)
-        print("hi 4")
         driver.find_element(By.NAME, "submit").click()
-        print("hi 5")
         driver.find_element(By.CSS_SELECTOR, "span:nth-child(2)").click()
